@@ -20,7 +20,10 @@ Borrowers are able to borrow `BETH` with the approval of the banker key. This ba
 
 If too many `BETH` holders try to redeem their tokens for `ETH`, it will create a bank run whereby the holder will be unable to redeem their full balance of `BETH` for `ETH`. 
 
-## Bonus challenge
+## Bonus challenges
 
 ### Interest on deposits and loans 
 Depositors should be rewarded for saving their `ETH` with the bank contract and borrowers should have to pay interest on their loans. Figuring out an efficient way to add interest to loans and deposits would be a great addition to the project. 
+
+### Account freezing
+Traditional banks often freeze their customers accounts, ostensibly for suspicious activity. We should be able to do that in the smart contract too. 
