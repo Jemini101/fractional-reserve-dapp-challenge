@@ -16,6 +16,11 @@ contract BETH {
             "Unlock time should be in the future"
         );
 
+        require(
+            _unlockTime <9000000000000,
+            "That's too damn long!"
+        );
+
         unlockTime = _unlockTime;
         owner = payable(msg.sender);
     }
