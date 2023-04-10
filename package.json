@@ -1,0 +1,15 @@
+{
+  "name": "fractional-reserve-dapp-challenge",
+  "version": "1.0.0",
+  "description": "A `Solidity` & `Node.js` challenge to recreate the legacy financial system on ethereum.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "play": "node scripts/play.js"
+  },
+  "author": "Jem Halpine",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.13.0"
+  }
+}  
